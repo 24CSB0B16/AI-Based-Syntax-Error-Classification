@@ -6,7 +6,7 @@ This project is a Compiler Design (CD) project that uses Machine Learning to det
 
 It processes input C code, extracts features using AST (Abstract Syntax Tree), and predicts the type of syntax error along with its location and possible fix.
 
----
+
 
 ##  Objectives
 
@@ -15,16 +15,15 @@ It processes input C code, extracts features using AST (Abstract Syntax Tree), a
 * Provide meaningful suggestions for correction
 * Reduce manual debugging effort
 
----
+
 
 ## Tech Stack
 
-* **Language:** Python
+* **Language:** Python,c
 * **Concepts:** Compiler Design, AST (Abstract Syntax Tree)
 * **Machine Learning:** Classification model (trained using dataset)
-* **Libraries:** (mention if used: sklearn, pandas, etc.)
+* **Libraries:** ( sklearn, pandas, etc.)
 
----
 
 ##  Project Structure
 
@@ -49,7 +48,6 @@ It processes input C code, extracts features using AST (Abstract Syntax Tree), a
 │── syntax_error_model.pkl    # Trained ML model
 ```
 
----
 
 ##  Workflow
 
@@ -83,7 +81,6 @@ It processes input C code, extracts features using AST (Abstract Syntax Tree), a
      * Error Line
      * Suggestion
 
----
 
 ## How to Run
 
@@ -104,7 +101,6 @@ python w8modeltraining.py
 python week9.py
 ```
 
----
 
 ##  Example
 
@@ -125,7 +121,6 @@ Error Line: 2
 Suggestion: Add ';' at end of statement
 ```
 
----
 
 ##  Dataset Details
 
@@ -133,7 +128,6 @@ Suggestion: Add ';' at end of statement
 * Includes error type, code snippet, and features
 * Used to train classification model
 
----
 
 ## Future Improvements
 
@@ -142,7 +136,7 @@ Suggestion: Add ';' at end of statement
 * Add real-time error detection
 * Develop web-based interface
 
----
+
 
 ##  Author
 Ch Geetha Vandhana
